@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Responsive Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">EagleTech</div>
+        <div class="menu-toggle">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to EagleTech</h1>
+        <p>Your Technology Partner for Innovation & Growth</p>
+        <a href="#" class="btn">Get Started</a>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="card">Web Design</section>
+        <section class="card">App Development</section>
+        <section class="card">Digital Marketing</section>
+        <section class="card">IT Consulting</section>
+    </main>
+
+</body>
+</html>
